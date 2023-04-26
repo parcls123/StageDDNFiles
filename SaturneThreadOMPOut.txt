@@ -1,0 +1,56 @@
+log dir: SaturneThreadOMP/Results1_2023_4_20.darshan
+total logs: 1
+      shared file access: 0.000000 [0]
+file-per-proccess access: 1.000000 [1]
+             mpio access: 0.000000 [0]
+          pnetcdf access: 0.000000 [0]
+             hdf5 access: 0.000000 [0]
+
+I/O percentage of runtime:
+0.00-0.20: 1
+0.20-0.40: 0
+0.40-0.60: 0
+0.60-0.80: 0
+0.80-1.00: 0
+log dir: SaturneThreadOMP/Results2_2023_4_20.darshan
+total logs: 1
+      shared file access: 0.000000 [0]
+file-per-proccess access: 1.000000 [1]
+             mpio access: 0.000000 [0]
+          pnetcdf access: 0.000000 [0]
+             hdf5 access: 0.000000 [0]
+
+I/O percentage of runtime:
+0.00-0.20: 1
+0.20-0.40: 0
+0.40-0.60: 0
+0.60-0.80: 0
+0.80-1.00: 0
+log dir: SaturneThreadOMP/Results3_2023_4_20.darshan
+total logs: 1
+      shared file access: 0.000000 [0]
+file-per-proccess access: 1.000000 [1]
+             mpio access: 0.000000 [0]
+          pnetcdf access: 0.000000 [0]
+             hdf5 access: 0.000000 [0]
+
+I/O percentage of runtime:
+0.00-0.20: 1
+0.20-0.40: 0
+0.40-0.60: 0
+0.60-0.80: 0
+0.80-1.00: 0
+log dir: SaturneThreadOMP/Results_2023_4_20.darshan
+total logs: 1
+      shared file access: 0.000000 [0]
+file-per-proccess access: 1.000000 [1]
+             mpio access: 0.000000 [0]
+          pnetcdf access: 0.000000 [0]
+             hdf5 access: 0.000000 [0]
+
+I/O percentage of runtime:
+0.00-0.20: 1
+0.20-0.40: 0
+0.40-0.60: 0
+0.60-0.80: 0
+0.80-1.00: 0
