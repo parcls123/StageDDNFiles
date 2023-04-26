@@ -1,0 +1,146 @@
+/var/spool/slurm//job4349714/slurm_script: line 9: intel-mpi/2019.3.199/intel-19.0.3.199: No such file or directory
+
+                      code_saturne
+                      ============
+
+Version:   7.3.0
+Path:      /gpfs/users/racliuspa/code_saturne/7.3.0/code_saturne-7.3.0/arch/Linux_x86_64
+
+Result directory:
+  /gpfs/users/racliuspa/StageM1_DDN/saturne-wk/Test2/CASE1/RESU/20230425-1630
+
+Copying base setup data
+-----------------------
+
+Compiling and linking user-defined functions
+--------------------------------------------
+
+Preparing calculation data
+--------------------------
+
+ Single processor code_saturne simulation.
+
+Preprocessing calculation
+-------------------------
+
+Starting calculation
+--------------------
+
+Post-calculation operations
+---------------------------
+
+Warning:
+  Will try to use 1 processes while resource manager (SLURM)
+   allows for 8.
+
+
+                      code_saturne
+                      ============
+
+Version:   7.3.0
+Path:      /gpfs/users/racliuspa/code_saturne/7.3.0/code_saturne-7.3.0/arch/Linux_x86_64
+
+Result directory:
+  /gpfs/users/racliuspa/StageM1_DDN/saturne-wk/Test2/CASE1/RESU/20230425-1631
+
+Copying base setup data
+-----------------------
+
+Compiling and linking user-defined functions
+--------------------------------------------
+
+Preparing calculation data
+--------------------------
+
+ Parallel code_saturne on 2 processes.
+
+Preprocessing calculation
+-------------------------
+
+Starting calculation
+--------------------
+
+[mpiexec@node184] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:393): downstream from host node184 was killed by signal 8 (Floating point exception)
+[mpiexec@node184] main (../../../../../src/pm/i_hydra/mpiexec/mpiexec.c:1957): assert (exitcodes != NULL) failed
+Post-calculation operations
+---------------------------
+
+Warning:
+  Will try to use 2 processes while resource manager (SLURM)
+   allows for 8.
+
+ solver script exited with status 255.
+
+Error running the calculation.
+
+Check run_solver.log and error* files for details.
+
+Domain None (code_saturne):
+  run_solver.log, error*.
+
+Run failed in calculation stage.
+
+
+                      code_saturne
+                      ============
+
+Version:   7.3.0
+Path:      /gpfs/users/racliuspa/code_saturne/7.3.0/code_saturne-7.3.0/arch/Linux_x86_64
+
+Result directory:
+  /gpfs/users/racliuspa/StageM1_DDN/saturne-wk/Test2/CASE1/RESU/20230425-1631_1
+
+Copying base setup data
+-----------------------
+
+Compiling and linking user-defined functions
+--------------------------------------------
+
+Preparing calculation data
+--------------------------
+
+ Parallel code_saturne on 4 processes.
+
+Preprocessing calculation
+-------------------------
+
+Starting calculation
+--------------------
+
+Post-calculation operations
+---------------------------
+
+Warning:
+  Will try to use 4 processes while resource manager (SLURM)
+   allows for 8.
+
+
+                      code_saturne
+                      ============
+
+Version:   7.3.0
+Path:      /gpfs/users/racliuspa/code_saturne/7.3.0/code_saturne-7.3.0/arch/Linux_x86_64
+
+Result directory:
+  /gpfs/users/racliuspa/StageM1_DDN/saturne-wk/Test2/CASE1/RESU/20230425-1632
+
+Copying base setup data
+-----------------------
+
+Compiling and linking user-defined functions
+--------------------------------------------
+
+Preparing calculation data
+--------------------------
+
+ Parallel code_saturne on 8 processes.
+
+Preprocessing calculation
+-------------------------
+
+Starting calculation
+--------------------
+
+Post-calculation operations
+---------------------------
+

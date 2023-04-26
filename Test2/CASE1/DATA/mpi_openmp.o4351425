@@ -1,0 +1,97 @@
+/var/spool/slurm//job4351425/slurm_script: line 9: intel-mpi/2019.3.199/intel-19.0.3.199: No such file or directory
+
+                      code_saturne
+                      ============
+
+Version:   7.3.0
+Path:      /gpfs/users/racliuspa/code_saturne/7.3.0/code_saturne-7.3.0/arch/Linux_x86_64
+
+Result directory:
+  /gpfs/users/racliuspa/StageM1_DDN/saturne-wk/Test2/CASE1/RESU/20230426-1050
+
+Copying base setup data
+-----------------------
+
+Compiling and linking user-defined functions
+--------------------------------------------
+
+Preparing calculation data
+--------------------------
+
+ Parallel code_saturne on 8 processes.
+
+Preprocessing calculation
+-------------------------
+
+Starting calculation
+--------------------
+
+[proxy:0:0@node059] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file LD_PRELOAD=/gpfs/users/racliuspa/StageM1_DDN/darshan-lib/usr/local/lib/libdarshan.so (No such file or directory)
+[proxy:0:0@node059] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file LD_PRELOAD=/gpfs/users/racliuspa/StageM1_DDN/darshan-lib/usr/local/lib/libdarshan.so (No such file or directory)
+[proxy:0:0@node059] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file LD_PRELOAD=/gpfs/users/racliuspa/StageM1_DDN/darshan-lib/usr/local/lib/libdarshan.so (No such file or directory)
+[proxy:0:0@node059] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file LD_PRELOAD=/gpfs/users/racliuspa/StageM1_DDN/darshan-lib/usr/local/lib/libdarshan.so (No such file or directory)
+[proxy:0:0@node059] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file LD_PRELOAD=/gpfs/users/racliuspa/StageM1_DDN/darshan-lib/usr/local/lib/libdarshan.so (No such file or directory)
+[proxy:0:0@node059] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file LD_PRELOAD=/gpfs/users/racliuspa/StageM1_DDN/darshan-lib/usr/local/lib/libdarshan.so (No such file or directory)
+[proxy:0:0@node059] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file LD_PRELOAD=/gpfs/users/racliuspa/StageM1_DDN/darshan-lib/usr/local/lib/libdarshan.so (No such file or directory)
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 0 PID 17635 RUNNING AT node059
+=   EXIT STATUS: 255
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 1 PID 17636 RUNNING AT node059
+=   EXIT STATUS: 255
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 2 PID 17637 RUNNING AT node059
+=   EXIT STATUS: 255
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 3 PID 17638 RUNNING AT node059
+=   EXIT STATUS: 255
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 4 PID 17639 RUNNING AT node059
+=   EXIT STATUS: 255
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 5 PID 17640 RUNNING AT node059
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 6 PID 17641 RUNNING AT node059
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 7 PID 17642 RUNNING AT node059
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+Post-calculation operations
+---------------------------
+
+ solver script exited with status 255.
+
+Error running the calculation.
+
+Check run_solver.log and error* files for details.
+
+Domain None (code_saturne):
+  run_solver.log, error*.
+
+Run failed in calculation stage.
+

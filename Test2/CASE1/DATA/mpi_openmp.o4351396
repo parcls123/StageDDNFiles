@@ -1,0 +1,170 @@
+/var/spool/slurm//job4351396/slurm_script: line 9: intel-mpi/2019.3.199/intel-19.0.3.199: No such file or directory
+
+                      code_saturne
+                      ============
+
+Version:   7.3.0
+Path:      /gpfs/users/racliuspa/code_saturne/7.3.0/code_saturne-7.3.0/arch/Linux_x86_64
+
+Result directory:
+  /gpfs/users/racliuspa/StageM1_DDN/saturne-wk/Test2/CASE1/RESU/20230426-1011
+
+Copying base setup data
+-----------------------
+
+Compiling and linking user-defined functions
+--------------------------------------------
+
+Preparing calculation data
+--------------------------
+
+ Single processor code_saturne simulation.
+
+Preprocessing calculation
+-------------------------
+
+Starting calculation
+--------------------
+
+darshan_library_warning: unable to create log file /gpfs/users/racliuspa/StageM1_DDN/darshan-log/2023/4/26/racliusp_cs_solver_id4351396-168297_4-26-36696-7074570036240221963.darshan_partial.
+Post-calculation operations
+---------------------------
+
+Warning:
+  Will try to use 1 processes while resource manager (SLURM)
+   allows for 8.
+
+
+                      code_saturne
+                      ============
+
+Version:   7.3.0
+Path:      /gpfs/users/racliuspa/code_saturne/7.3.0/code_saturne-7.3.0/arch/Linux_x86_64
+
+Result directory:
+  /gpfs/users/racliuspa/StageM1_DDN/saturne-wk/Test2/CASE1/RESU/20230426-1013
+
+Copying base setup data
+-----------------------
+
+Compiling and linking user-defined functions
+--------------------------------------------
+
+Preparing calculation data
+--------------------------
+
+ Parallel code_saturne on 2 processes.
+
+Preprocessing calculation
+-------------------------
+
+Starting calculation
+--------------------
+
+/gpfs/users/racliuspa/StageM1_DDN/saturne-wk/Test2/CASE1/RESU/20230426-1013/run_solver: line 18: 168423 Segmentation fault      mpiexec -n 2 -ppn 2 LD_PRELOAD=/gpfs/users/racliuspa/StageM1_DDN/darshan-lib/usr/local/lib/libdarshan.so ./cs_solver --mpi "$@"
+Post-calculation operations
+---------------------------
+
+Warning:
+  Will try to use 2 processes while resource manager (SLURM)
+   allows for 8.
+
+ solver script exited with status 139.
+
+Error running the calculation.
+
+Check run_solver.log and error* files for details.
+
+Domain None (code_saturne):
+  run_solver.log, error*.
+
+Run failed in calculation stage.
+
+
+                      code_saturne
+                      ============
+
+Version:   7.3.0
+Path:      /gpfs/users/racliuspa/code_saturne/7.3.0/code_saturne-7.3.0/arch/Linux_x86_64
+
+Result directory:
+  /gpfs/users/racliuspa/StageM1_DDN/saturne-wk/Test2/CASE1/RESU/20230426-1013_1
+
+Copying base setup data
+-----------------------
+
+Compiling and linking user-defined functions
+--------------------------------------------
+
+Preparing calculation data
+--------------------------
+
+ Parallel code_saturne on 4 processes.
+
+Preprocessing calculation
+-------------------------
+
+Starting calculation
+--------------------
+
+/gpfs/users/racliuspa/StageM1_DDN/saturne-wk/Test2/CASE1/RESU/20230426-1013_1/run_solver: line 18: 168461 Segmentation fault      mpiexec -n 4 -ppn 4 LD_PRELOAD=/gpfs/users/racliuspa/StageM1_DDN/darshan-lib/usr/local/lib/libdarshan.so ./cs_solver --mpi "$@"
+Post-calculation operations
+---------------------------
+
+Warning:
+  Will try to use 4 processes while resource manager (SLURM)
+   allows for 8.
+
+ solver script exited with status 139.
+
+Error running the calculation.
+
+Check run_solver.log and error* files for details.
+
+Domain None (code_saturne):
+  run_solver.log, error*.
+
+Run failed in calculation stage.
+
+
+                      code_saturne
+                      ============
+
+Version:   7.3.0
+Path:      /gpfs/users/racliuspa/code_saturne/7.3.0/code_saturne-7.3.0/arch/Linux_x86_64
+
+Result directory:
+  /gpfs/users/racliuspa/StageM1_DDN/saturne-wk/Test2/CASE1/RESU/20230426-1013_2
+
+Copying base setup data
+-----------------------
+
+Compiling and linking user-defined functions
+--------------------------------------------
+
+Preparing calculation data
+--------------------------
+
+ Parallel code_saturne on 8 processes.
+
+Preprocessing calculation
+-------------------------
+
+Starting calculation
+--------------------
+
+/gpfs/users/racliuspa/StageM1_DDN/saturne-wk/Test2/CASE1/RESU/20230426-1013_2/run_solver: line 18: 168499 Segmentation fault      mpiexec -n 8 -ppn 8 LD_PRELOAD=/gpfs/users/racliuspa/StageM1_DDN/darshan-lib/usr/local/lib/libdarshan.so ./cs_solver --mpi "$@"
+Post-calculation operations
+---------------------------
+
+ solver script exited with status 139.
+
+Error running the calculation.
+
+Check run_solver.log and error* files for details.
+
+Domain None (code_saturne):
+  run_solver.log, error*.
+
+Run failed in calculation stage.
+
